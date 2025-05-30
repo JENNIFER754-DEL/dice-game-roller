@@ -23,15 +23,16 @@ A command-line dice game built with Python. Roll dice, see results in ASCII art,
 - Python 3.7 or higher
 - Pipenv for environment management
 
-### Installation
+## Installation
 
 Clone the repository:
 git clone https://github.com/JENNIFER754-DEL/dice-game-roller.git
 cd dice-game-roller
-Create a virtual environment and install dependencies:
+Create and activate the virtual environment using pipenv:
 pipenv install
-Activate the environment and run the game:
-pipenv run python run.py
+pipenv shell
+Run the game:
+python run.py
 
 ## Project Structure
 
